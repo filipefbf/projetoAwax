@@ -386,7 +386,8 @@ CSS DE ÁREAS ESPECIFICAS
     height: 100%;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: #000;
+    padding: 30px;
 }
 
 .section-team-area .sliders-pointers {
@@ -409,4 +410,26 @@ CSS DE ÁREAS ESPECIFICAS
 
 .section-team-area .pointer.active {
     background-color: #b28756;
+}
+
+.section-team--avatar {
+    width: 150px;
+    height: auto;
+}
+
+.section-team--name {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px ;
+}
+
+.section-team--role {
+    font-size: 14px;
+    color: #999;
+    margin-top:5px ;
+}
+
+.section-team-social {
+    background-color: red;
 }
